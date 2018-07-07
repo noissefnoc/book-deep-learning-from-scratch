@@ -6,3 +6,6 @@ venv
 
 # macOS thumbnail
 .DS_Store
+
+# exclude mnist actual data
+dataset/*.gz

@@ -24,6 +24,22 @@ Book reading log "Deep Learning from scratch" (Ja『ゼロから作る Deep Lear
 
 ### Chapter 3: Neural Network
 
+* Use sigmoid, ReLU and the other smooth function as activation function
+* Using Numpy's multi-dimensional array feature, we can implement neural network efficiently
+* Machine learning approach broadly divided classification and regression
+* Activation function of output layer
+    * Regression: identification function
+    * Classification: softmax function
+* In classification problem we set output layer numbers equal to classification class number
+* Batch: group of input. when we use 
+
+
+#### notice
+
+`PIL` install via `pip install pillow`
+
+ref: [Python 3.5 対応画像処理ライブラリ Pillow (PIL) の使い方](https://librabuch.jp/blog/2013/05/python_pillow_pil/)
+
 
 
 ## Author
