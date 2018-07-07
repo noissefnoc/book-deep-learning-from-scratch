@@ -9,3 +9,5 @@ venv
 
 # exclude mnist actual data
 dataset/*.gz
+dataset/mnist.pkl
+dataset/__pycache__
