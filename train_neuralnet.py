@@ -6,7 +6,7 @@ from two_layer_net import TwoLayerNet
 
 
 if __name__ == '__main__':
-    (x_train, t_train), (x_test, t_test) = load_mnist(normalize=True)
+    (x_train, t_train), (x_test, t_test) = load_mnist(normalize=True, one_hot_label=True)
 
     train_loss_list = []
     train_acc_list = []
@@ -27,7 +27,8 @@ if __name__ == '__main__':
         x_batch = x_train[batch_mask]
         t_batch = t_train[batch_size]
 
-        grad = network.numerical_gradient(x_batch, t_batch)
+        #grad = network.numerical_gradient(x_batch, t_batch)
+        grad = network.gradient(x_batch, t_batch)
 
         for key in ('W1', 'b1', 'W2', 'b2'):
             network.params[key] -= learning_rate * grad[key]
