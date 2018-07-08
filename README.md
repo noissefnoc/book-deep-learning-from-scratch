@@ -40,7 +40,6 @@ Book reading log "Deep Learning from scratch" (Ja『ゼロから作る Deep Lear
 
 `PIL` install via `pip install pillow`
 
-ref: [Python 3.5 対応画像処理ライブラリ Pillow (PIL) の使い方](https://librabuch.jp/blog/2013/05/python_pillow_pil/)
 
 ##### MNIST data generation
 
@@ -55,6 +54,12 @@ then this script generates `dataset/mnist.pkl`
 
 ### Chapter 4: Training of Neural Network
 
+
+
+## References
+
+* [Python 3.5 対応画像処理ライブラリ Pillow (PIL) の使い方](https://librabuch.jp/blog/2013/05/python_pillow_pil/): installation of PIL
+* [CS231n](http://cs231n.stanford.edu/syllabus.html)
 
 
 ## Author
