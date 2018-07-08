@@ -31,7 +31,7 @@ Book reading log "Deep Learning from scratch" (Ja『ゼロから作る Deep Lear
     * Regression: identification function
     * Classification: softmax function
 * In classification problem we set output layer numbers equal to classification class number
-* Batch: group of input. when we use 
+* Batch: unit of input
 
 
 #### notice
@@ -51,6 +51,10 @@ $ python download_dataset.py
 ```
 
 then this script generates `dataset/mnist.pkl`
+
+
+### Chapter 4: Training of Neural Network
+
 
 
 ## Author
