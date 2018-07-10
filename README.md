@@ -54,6 +54,13 @@ then this script generates `dataset/mnist.pkl`
 
 ### Chapter 4: Training of Neural Network
 
+* Data sets used in machine learning are divided into training data and test data
+* Learning with training data and evaluating the general-purpose ability of the learned model with test data
+* Learning of the neural network updates the weight parameter so that the value of the loss function becomes small with the loss function as an index
+* When updating the weight parameter, the work of updating the value of the weight in the gradient direction is repeated using the gradient of the weight parameter
+* Calculating the derivative by the difference when giving a small value is called numerical differentiation
+* The gradient of the weight parameter can be obtained by numerical differentiation
+* Calculation by numerical differentiation takes time, but its implementation is simple. On the other hand, the slightly complicated error back propagation method implemented in the next chapter can obtain the gradient at high speed
 
 
 ## References
