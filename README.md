@@ -63,6 +63,15 @@ then this script generates `dataset/mnist.pkl`
 * Calculation by numerical differentiation takes time, but its implementation is simple. On the other hand, the slightly complicated error back propagation method implemented in the next chapter can obtain the gradient at high speed
 
 
+### notice
+
+I have 1st print of this book. This has many mistakes.
+
+So I check [errata](https://github.com/oreilly-japan/deep-learning-from-scratch/wiki/errata) and [current version sample code](https://github.com/oreilly-japan/deep-learning-from-scratch).
+
+Some codes doesn't work well now.
+
+
 ## References
 
 * [Python 3.5 対応画像処理ライブラリ Pillow (PIL) の使い方](https://librabuch.jp/blog/2013/05/python_pillow_pil/): installation of PIL
