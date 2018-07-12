@@ -72,6 +72,17 @@ So I check [errata](https://github.com/oreilly-japan/deep-learning-from-scratch/
 Some codes doesn't work well now.
 
 
+### Chapter 5: Backpropagation
+
+* By using the computational graph, it's possible to visually grasp the computation process
+* Nodes of computational graph are configured by local calculation
+* Propagation in the computational graph performs normal computation. On the other hand, differentiation of each node can be obtained by backpropagation of computational graph.
+* By implementing the components of the neural network as layers, it's possible to efficiently compute the gradient calculation(Backpropagation)
+* By comparing the results of numerical differentiation and backpropagation method, it can be confirmed that there is no error in implementation of error back propagation method(gradient check)
+
+Computational graph
+
+
 ## References
 
 * [Python 3.5 対応画像処理ライブラリ Pillow (PIL) の使い方](https://librabuch.jp/blog/2013/05/python_pillow_pil/): installation of PIL
