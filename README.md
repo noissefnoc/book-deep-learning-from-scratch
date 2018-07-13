@@ -80,7 +80,9 @@ Some codes doesn't work well now.
 * By implementing the components of the neural network as layers, it's possible to efficiently compute the gradient calculation(Backpropagation)
 * By comparing the results of numerical differentiation and backpropagation method, it can be confirmed that there is no error in implementation of error back propagation method(gradient check)
 
-Computational graph
+
+### Chapter 6: Techies about learning
+
 
 
 ## References
