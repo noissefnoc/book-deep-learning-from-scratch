@@ -83,6 +83,12 @@ Some codes doesn't work well now.
 
 ### Chapter 6: Techies about learning
 
+* Besides SGD, as a method of updating parameters, there are methods such as Momentum, AdaGrad, Adam, etc, which are famous
+* The way of giving the initial value of the weight is important for correct learning
+* The initial value of Xavier and the initial value of He are valid as the initial value of the weight
+* By using Batch Normalization, learning can be advanced quickly, it becomes robust against the initial value
+* There are Weight decay and Dropout as normalization methods to suppress over learning
+* Searching for hyperparameters is an efficient way to progress while gradually narrowing down the range where good values ​​exist
 
 
 ## References
