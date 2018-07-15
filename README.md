@@ -91,6 +91,15 @@ Some codes doesn't work well now.
 * Searching for hyperparameters is an efficient way to progress while gradually narrowing down the range where good values ​​exist
 
 
+### Chapter 7: Convolution neural network
+
+* CNN adds a convolution layer and a pooling layer to the network of all the bonded layers so far
+* For convolution layer and pooling layer, im2col can be used for simple and efficient implementation
+* The visualization of CNN shows how advanced information is extracted as the layer becomes deeper
+* Representative types of CNN network are LeNet and AlexNet
+* Big data and GPU have greatly contributed to the development of deep learning
+
+
 ## References
 
 * [Python 3.5 対応画像処理ライブラリ Pillow (PIL) の使い方](https://librabuch.jp/blog/2013/05/python_pillow_pil/): installation of PIL
