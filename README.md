@@ -100,6 +100,16 @@ Some codes doesn't work well now.
 * Big data and GPU have greatly contributed to the development of deep learning
 
 
+### Chapter 8: Deep learning
+
+* For many problems, improvement of performance can be expected by deepening the network
+* A recent trend in the image recognition competition called ILSVRC is that the deep learning method monopolizes the top and the used network is also deep
+* Famous networks include VGG, GoogleLeNet and ResNet
+* Improve deep learning speed by GPU, distributed learning, reduction of bit system, and so on
+* Deep learning(Neural network) can be used not only for object recognition but also for object detection and segmentation
+* As applications using deep learning, there are caption generation of images, generation of images, reinforcement learning. Recently, use of deep learning for automatic driving is also expected,
+
+
 ## References
 
 * [Python 3.5 対応画像処理ライブラリ Pillow (PIL) の使い方](https://librabuch.jp/blog/2013/05/python_pillow_pil/): installation of PIL
